@@ -13,7 +13,7 @@ public class Aufgabe1
 
         // im try Block wird es befüllt
         try {
-            file = new File("test.txt"); //relativer Pfad im Projekt
+            file = new File("C:\\Users\\Nina Pfister\\Desktop\\Software Übung´\\test.txt"); //relativer Pfad im Projekt
             fr = new FileReader(file);
             br = new BufferedReader(fr);
             ArrayList<String> arrayList = new ArrayList();
